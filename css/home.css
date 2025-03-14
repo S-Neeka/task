@@ -96,7 +96,7 @@ button{
 .banner{
     /* display: grid;
     grid-template-columns:auto auto; */
-    background-image: url('../images/yogaban.jpeg');
+    background-image: url('/images/yogaban.jpeg');
     background-size: cover;
     height: 90vh;
     /* padding: 40px;
