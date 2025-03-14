@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* nav a{
+ text-decoration: none;
+ padding: 25px;
+    font-weight: bold;
+    color: white;
+    }
+nav{
+text-align: center;
+background-color:green;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+nav a:hover{
+    color: black;
+    }     */
+   
+.first{
+    display: grid;
+    grid-template-columns:40% 60%;
+}
+.first img{
+    margin-left:5%;
+}
+.first ol{
+    margin-right:5%;
+}
+/* li{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 30px;
+} */
+h3{
+    text-align: center;
+    padding: 5%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-right: 7%;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.services{
+    padding-bottom: 5%;
+    background-color:rgb(250, 244, 236);
+    margin: 5%;
+}
+.grid img{
+    height: 300px;
+    width: 300px;
+}
+.grid img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+.grid1 img{
+    height: 300px;
+    width: 300px;
+}
+.grid1 img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+.last{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    padding: 5%;
+}
+.last p{
+    text-align: justify;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(30, 110, 38);
+    color: white;
+}
+#container{
+    margin: auto;
+    width: 50%;
+}
+#image{
+    height: 300px;
+    width: 300px;
+}
+.banner{
+    /* display: grid;
+    grid-template-columns:auto auto; */
+    background-image: url('/images/yogaban.jpeg');
+    background-size: cover;
+    height: 90vh;
+    /* padding: 40px;
+    padding-top: 10%; */
+}
+/* .banner p{
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+    line-height: 30px;
+} */
+form{
+    border: solid 1px green;
+    padding: 6%;
+    margin: auto;
+    width: 80%;
+
+}
+input{
+    width:50%;
+    padding: 10px;
+}
+.name{
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 10px;
+}
+.icongrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 20%;
+
+}
+.icongrid i{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+padding-left: 32%;
+}
+.icongrid p{
+    /* margin: auto;
+    width: 70%; */
+    text-align: center;
+}
+.sli{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+}
+
+.list{
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 70%;
+
+}
+.list p{
+    background-color: bisque;
+    border-radius: 20px;
+    border: solid 3px  rgb(254, 191, 113);
+    padding: 7px;
+    margin: 15px;
+    text-align: center;
+
+}
+.client{
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: rgb(224, 222, 222);
+
+}
+.client img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+.rev{
+    text-align: justify;
+    margin: auto;
+    width: 50%;
+}

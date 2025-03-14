@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a{
+     text-decoration: none;
+        font-weight: bold;
+        color: white;
+        padding-left: 35px;
+        }
+    nav{
+        text-align: center;
+    background-color:green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:28%;
+    }
+    .navi a:hover{
+    color: black !important;
+}
+
+     .navi {
+     display: flex;
+            }
+    .dropdown {
+      position: relative;
+            }
+     .down {
+    display: none;
+    position: absolute;
+     background-color: white;
+     border: solid 1px green;
+    }
+     .dropdown:hover .down {
+     display: block;
+    }
+    .down a {
+        display: block;
+        padding: 10px;
+        color: black;
+            }
+            .down a:hover {
+                background-color: #ddd;
+            }    /* <!-- <i class="fa fa-caret-down"></i> --> */
+    .breadcrumb{
+        padding: 10px;
+    }
+    .breadcrumb a{
+        padding: 5px;
+    }
+    .breadcrumb a:hover{
+        color: black;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 5%;
+    }
+    form{
+        border: solid 1px green;
+        margin-right: 5%;
+        padding: 6%;
+        width: 70%;
+        background-color:rgb(255, 249, 241)
+    }
+    input{
+        width:50%;
+        padding: 10px;
+    }
+    .name{
+        display: grid;
+        grid-template-columns: auto auto; 
+        gap: 10px;
+    }
+    img{
+        border-radius: 10px;
+    }
+    img:hover{
+        transform: rotatex(20deg);
+        }
+    
+  </style>
+</head>
+<body>
+    <nav class="fs-2 navi">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+        <a href="services.html">Services</a>
+            <div class="down fs-6">
+            <a href="web.html">Web Development</a>
+            <a href="seo.html">Search Engine Optimization</a>
+             <a href="mobile.html">Android Development</a>
+            </div>
+        </div>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="serviceban">
+    <ul class="breadcrumb">
+        <li><a href="home.html">Home /</a></li>
+        <li><a href="about.html">About /</a></li>
+        <li><a href="services.html">Services /</a></li>
+        <li>Contact</li>
+      </ul>  
+      </div>  
+<section>
+    <h2 class="text-center pt-5">Contact Us</h2>
+    <div class="grid">
+        <div>
+<img src="/images/d.jpg" height="350" width="350">
+        </div>
+        <div class="form">
+            <form>
+                <fieldset>
+                <div class="row">
+                    <div class="name">
+                        <div class="mb-3">
+                            <input class=" form-control bg-light" placeholder="First name" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control bg-light" placeholder="Last name" type="text">
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="mb-3">
+                            <input class="form-control bg-light" placeholder="Email address" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control bg-light" placeholder="Your message" rows="4"></textarea>
+                </div>
+                <div class="">
+                    <div class="d-grid">
+                        <button class="btn bg-success text-light" type="submit">Send message</button>
+                    </div>
+                    </div>
+                </div>
+                
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
